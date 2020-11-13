@@ -33,6 +33,18 @@ export default new Router({
       name: "drawer",
       component: () =>
         import("./views/Drawer.vue")
+    },
+    {
+      path: "/simple",
+      name: "simple",
+      component: () =>
+        import("./views/Simple.vue")
+    },
+    {
+      path: "/stagger",
+      name: "stagger",
+      component: () =>
+        import("./views/Stagger.vue")
     }
   ]
 });
