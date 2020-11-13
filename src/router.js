@@ -27,6 +27,12 @@ export default new Router({
       name: "list",
       component: () =>
         import("./views/List.vue")
+    },
+    {
+      path: "/drawer",
+      name: "drawer",
+      component: () =>
+        import("./views/Drawer.vue")
     }
   ]
 });
