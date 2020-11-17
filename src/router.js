@@ -57,6 +57,12 @@ export default new Router({
       name: "timeline",
       component: () =>
         import("./views/Timeline.vue")
+    },
+    {
+      path: "/master",
+      name: "master",
+      component: () =>
+        import("./views/Master.vue")
     }
   ]
 });
